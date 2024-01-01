@@ -1,8 +1,8 @@
 "use strict";
 const canvas = document.getElementById("canvas1");
-const ctx = canvas.getContext("2d"); //creates an object representating 2d rendering context. Can be webgl for 3d renders
+const ctx = canvas.getContext("2d"); //creates an object representating 2d rendering context. Can be webgl for 3d renders. API for drawing on canvas.
 
-const canvasWidth = (canvas.width = 600); //width & height are already set in stylesheet.
+const canvasWidth = (canvas.width = 600); //default is 300x150
 const canvasHeight = (canvas.height = 600);
 
 const dogImg = new Image();
