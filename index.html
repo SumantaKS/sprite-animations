@@ -5,9 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sprite Animations</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
   </head>
   <body>
     <canvas id="canvas1"></canvas>
+    <div class="controls">
+      <div class="left">
+        <label for="states">Choose your animation:</label>
+        <select name="states" id="states">
+          <option value="idle">Idle</option>
+          <option value="jump">Jump</option>
+          <option value="land">Land</option>
+          <option value="run">Run</option>
+          <option value="dizzy">Dizzy</option>
+          <option value="sit">Sit</option>
+          <option value="roll">Roll</option>
+          <option value="bite">Bite</option>
+          <option value="hit">Hit</option>
+          <option value="getHit">Get Hit</option>
+        </select>
+      </div>
+      <div class="right">
+        <label for="speed">Choose your speed:</label>
+        <select name="speed" id="speed">
+          <option value="5">Normal</option>
+          <option value="6">1x slower</option>
+          <option value="7">2x slower</option>
+          <option value="8">3x slower</option>
+          <option value="9">4x slower</option>
+          <option value="4">1x faster</option>
+          <option value="3">2x faster</option>
+          <option value="2">3x faster</option>
+          <option value="1">4x faster</option>
+        </select>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
