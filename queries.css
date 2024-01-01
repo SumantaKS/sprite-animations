@@ -2,8 +2,8 @@
   .controls {
     position: absolute;
     top: 80px;
-    left: 50%;
-    transform: translate(-50%);
+    left: 40%;
+    transform: translate(-40%);
     flex-direction: column;
     gap: 30px;
   }
