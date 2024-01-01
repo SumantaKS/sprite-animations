@@ -1,2 +1,2 @@
 # Simple Sprite Animation of a running dog 
-<br>[Live Version Here](run-sumanta.netlify.app)
+[Live Version Here](https://run-sumanta.netlify.app/)
