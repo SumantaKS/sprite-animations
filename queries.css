@@ -1,7 +1,7 @@
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .controls {
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: 50%;
     transform: translate(-50%);
     flex-direction: column;
@@ -15,13 +15,20 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-}
-.controls,
-select,
-option {
-  font-size: 20px;
-}
-.left,
-.right {
-  width: 300px;
+  .controls,
+  select,
+  option {
+    font-size: 20px;
+  }
+  .left,
+  .right,
+  .head {
+    width: 300px;
+  }
+
+  .head {
+    text-align: center;
+    text-decoration: underline;
+    color: grey;
+  }
 }
